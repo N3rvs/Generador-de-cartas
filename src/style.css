@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+#video_background {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1000;
+  overflow: hidden;
+  opacity: 0.9;
+}
+
+/* #carta{
+        width: 300px;
+        height: 450px;
+        background-color: #FFFFFF;
+        border-radius: 20px;
+        margin: 5% auto;
+    } */
+
+.card {
+  width: 280px;
+  height: 455px;
+  margin: auto;
+  margin-top: 150px;
+  background: white;
+  border-radius: 20px;
+  transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.shadow {
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(190, 190, 190),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+#simboloArriba {
+  display: inline-block;
+  position: relative;
+  left: 20px;
+  color: red;
+  font-size: 100px;
+  width: 60px;
+  height: 100px;
+}
+
+#numero {
+  font-size: 120px;
+  width: 120px;
+  text-align: center;
+  margin-top: 40px;
+  margin-left: 75px;
+}
+
+#simboloAbajo {
+  float: right;
+  position: relative;
+  right: 20px;
+  bottom: -80px;
+  color: red;
+  font-size: 100px;
+  width: 60px;
+  height: 100px;
+  transform: rotate(-180deg);
+}
+
+#boton-nueva {
+  margin: auto;
+  width: 300px;
+}
+
+.boton {
+  margin-top: 50px;
+  margin-left: 60px;
+  width: 150px;
+  font-size: 22px;
+  border-radius: 5px;
+  font-family: "Josefin Sans", sans-serif;
+  padding: 5px;
+}
