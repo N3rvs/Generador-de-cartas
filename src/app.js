@@ -27,7 +27,7 @@ window.onload = function() {
     return carta;
   };
   const asignarColor = arr => {
-    if (arr[0] === "corazon" && arr[0] === "diamante") {
+    if (arr[0] === "corazon" || arr[0] === "diamante") {
       paloArriba.style.color = "red";
       numero.style.color = "red";
       paloAbajo.style.color = "red";
